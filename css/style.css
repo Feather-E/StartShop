@@ -20,6 +20,10 @@ nav.navbar div.container-fluid {
     width: 95%;
 }
 
+nav.navbar div.container-fluid a.logo img {
+    width: 200px;
+}
+
 nav#primary-navbar form.d-flex {
     width: 40%;
 }
@@ -154,7 +158,7 @@ nav#sub-nav div#sub-container h1 {
 
 @media (max-width: 650px) {
 
-    nav#primary-navbar div.container-fluid a.logo {
+    nav#primary-navbar div.container-fluid a.logo img {
         width: 90px;
         margin-bottom: 10px;
     }
